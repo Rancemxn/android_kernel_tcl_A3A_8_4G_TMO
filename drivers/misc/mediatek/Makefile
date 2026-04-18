@@ -205,3 +205,10 @@ obj-y += io_boost/
 
 obj-$(CONFIG_MTK_PSENSOR_IQS128) += psensor/
 obj-$(CONFIG_TCT_ROBUST) += robust/
+
+obj-$(CONFIG_MODULES) += modules/connectivity/common/
+obj-$(CONFIG_MODULES) += modules/connectivity/bt/mt66xx/
+obj-$(CONFIG_MODULES) += modules/connectivity/fmradio/
+obj-$(CONFIG_MODULES) += modules/connectivity/gps/
+obj-$(CONFIG_MODULES) += modules/connectivity/wlan/adaptor/
+obj-$(CONFIG_MODULES) += modules/connectivity/wlan/core/gen2/
