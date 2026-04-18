@@ -1316,7 +1316,7 @@ CONFIG_MTK_THERMAL_PA_VIA_ATCMD=y
 #
 # MultiMedia, Display, Camera related configs
 #
-CONFIG_CUSTOM_KERNEL_IMGSENSOR="r_cxt_gc5025a_mipi_raw r_cxt_gc5035_mipi_raw f_sun_hi556_mipi_raw f_shinetech_gc5035_mipi_raw r_cxt_2nd_gc5035_mipi_raw f_shinetech_ov5670_mipi_raw"
+CONFIG_CUSTOM_KERNEL_IMGSENSOR="r_cxt_gc5025a_mipi_raw f_sun_hi556_mipi_raw "
 CONFIG_CUSTOM_KERNEL_CAM_CAL_DRV="BRCB032GWZ_3 GT24c32a cat24c16"
 # CONFIG_MTK_SEC_VIDEO_PATH_SUPPORT is not set
 # CONFIG_MTK_TEE_GP_SUPPORT is not set
@@ -1355,13 +1355,13 @@ CONFIG_CUSTOM_KERNEL_HDMI=""
 # CONFIG_MTK_HDMI_3D_SUPPORT is not set
 CONFIG_MTK_IMGSENSOR=y
 CONFIG_SPECIFY_IMGSENSOR=y
-CONFIG_IMGSENSOR_MAIN="r_cxt_gc5025a_mipi_raw r_cxt_gc5035_mipi_raw r_cxt_2nd_gc5035_mipi_raw"
+CONFIG_IMGSENSOR_MAIN="r_cxt_gc5025a_mipi_raw "
 CONFIG_IMGSENSOR_MAIN2=""
-CONFIG_IMGSENSOR_SUB="f_sun_hi556_mipi_raw f_shinetech_gc5035_mipi_raw f_shinetech_ov5670_mipi_raw"
+CONFIG_IMGSENSOR_SUB="f_sun_hi556_mipi_raw"
 CONFIG_IMGSENSOR_SUB2=""
 CONFIG_MTK_JPEG=y
 CONFIG_MTK_LCM=y
-CONFIG_CUSTOM_KERNEL_LCM="otm1287a_tdt_video ili9881c_xy_video ili9881c_tdt_3th_video jd9365d_txd_4th_video ili9881c_auo_5th_video"
+CONFIG_CUSTOM_KERNEL_LCM="otm1287a_tdt_video"
 # CONFIG_MTK_LCM_DEVICE_TREE_SUPPORT is not set
 CONFIG_MTK_LENS=y
 # CONFIG_MTK_LENS_USE_MODULE is not set
