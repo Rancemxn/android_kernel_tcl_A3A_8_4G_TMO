@@ -1200,6 +1200,7 @@ s32 gtp_init_panel(struct i2c_client *client)
                  abs_x_max, abs_y_max, int_type);
     }
     msleep(20);
+    gtp_set_refresh_rate(0);
     return 0;
 }
 

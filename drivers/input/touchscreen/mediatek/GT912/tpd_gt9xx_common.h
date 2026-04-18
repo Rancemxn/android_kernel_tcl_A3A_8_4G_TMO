@@ -83,7 +83,7 @@
     #define GTP_MAX_WIDTH    800
     #define GTP_INT_TRIGGER  1
 #endif
-#define GTP_MAX_TOUCH      5
+#define GTP_MAX_TOUCH      10
 
 #define VELOCITY_CUSTOM
 #define TPD_VELOCITY_CUSTOM_X 15
